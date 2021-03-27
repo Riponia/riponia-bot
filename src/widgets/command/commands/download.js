@@ -1,8 +1,8 @@
 const CommandBuilder = require("../classes/CommandBuilder");
 
 module.exports = new CommandBuilder()
-  .setName("help")
-  .setAliases(["h", "aide"])
+  .setName("download")
+  .setAliases(["ip", "server"])
   .setOwnersOnly(false)
   .setGuildOnly(false)
   .setRequireArgs(false)
@@ -12,9 +12,6 @@ module.exports = new CommandBuilder()
   // eslint-disable-next-line
   .setExecute(async (message, user, args) => {
     await message.channel.send( 
-    "**Liste des commandes de Riponia:**" +
-    "\n``.help``: Affiche cette liste." +
-    "\n``.download``: Donne le lien de la page de téléchargement du Launcheur." +
-    "\n``.beta``: Informations sur la bêta de Riponia." +
-    "\n\n``.source``: Donne le lien du code source de ce bot.");
+    "Le Launcheur n'est pas encore disponible pendant la bêta !" +
+    "\nFaites ``.beta`` pour plus d'informations.");
   });
