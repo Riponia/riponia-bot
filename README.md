@@ -4,4 +4,4 @@ Le bot discord de Riponia, riponia-bot nous permet de gérer plus facilement not
 - Liste1
 - Liste2
 
-Il a été créé à partir du [create-discord-bot] (https://github.com/peterthehan/create-discord-bot) de @peterthehan."# riponia-bot" 
+Il a été créé à partir du [create-discord-bot](https://github.com/peterthehan/create-discord-bot) de @peterthehan."# riponia-bot" 
